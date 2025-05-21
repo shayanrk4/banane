@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktienportal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aktienportal</h1>
+            <button id="theme-toggle">Dark Mode</button>
+        </header>
+        
+        <!-- NEUE ERKLÄRUNG -->
+        <div class="info-box">
+            <h2>Was sind Aktien?</h2>
+            <p>Aktien sind Anteile an einem Unternehmen. Wenn Sie Aktien kaufen, werden Sie Miteigentümer und können von Gewinnen des Unternehmens profitieren. Aktienkurse schwanken täglich basierend auf Angebot und Nachfrage.</p>
+        </div>
+        
+        <div class="stock-grid" id="stock-container">
+            <!-- Aktien werden hier eingefügt -->
+        </div>
+        
+        <div class="chart-section">
+            <h2>Marktentwicklung</h2>
+            <div class="chart-container">
+                <canvas id="market-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
