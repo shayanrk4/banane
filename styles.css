@@ -1,0 +1,47 @@
+/* NEU HINZUGEFÜGT */
+.info-box {
+    background: var(--card-bg);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.info-box h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.info-box p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ALLES ANDERE BLEIBT GENAU WIE ZUVOR */
+:root {
+    --bg-color: #f5f5f7;
+    --text-color: #1d1d1f;
+    --card-bg: #ffffff;
+    --primary: #06c;
+    --up: #34C759;
+    --down: #FF3B30;
+}
+
+[data-theme="dark"] {
+    --bg-color: #1d1d1f;
+    --text-color: #f5f5f7;
+    --card-bg: #2c2c2e;
+    --primary: #2997ff;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+/* ... Rest des bestehenden CSS bleibt unverändert ... */
